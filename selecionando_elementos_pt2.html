@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <h1 id="titulo">Selecionando elementos Pt1</h1>
+
+    <div class="">Div 1</div>
+    <div>Div 2</div>
+
+    <ul class="lista1">
+        <li class="">Menu 1 - Item 1</li>
+        <li class="exemplo2">Menu 1 - Item 2</li>
+        <li class="exemplo2">Menu 1 - Item 3</li>
+    </ul>
+
+    <ul class="lista2">
+        <li class="">Menu 2 - Item 1</li>
+        <li class="exemplo2">Menu 2 - Item 2</li>
+        <li class="exemplo2">Menu 2 - Item 3</li>
+    </ul>
+
+    <input class="" type="text" placeholder="campo 1"/>
+    <input class="" type="text" placeholder="campo 2"/>
+    <input class="" type="text" placeholder="campo 3"/>
+
+    <select name="" id="">
+        <option value="">-- Selecione uma opção --</option>
+        <option value="">Opção 1</option>
+        <option value="">Opção 2</option>
+        <option value="">Opção 3</option>
+    </select>
+
+    <br/>
+
+</body>
+    <script>
+        // como selecionar a classe específica
+        $('li.exemplo1')
+
+        //selecionar elementos de classes de classes específicas
+        $('.lista1 .exemplo2')
+        $('.lista1 .exemplo2:first')
+        $('.lista1 .exemplo2:last')
+        $('.lista1 .exemplo2:even')
+        $('.lista1 .exemplo2:odd')
+
+    </script>
+
+
+</html>
